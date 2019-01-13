@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'attention';
+  src: url(../images/The_Attention.ttf); }
+
+.about .about-container {
+  display: flex;
+  background: #FACFCC; }
+  @media only screen and (max-width: 767px) {
+    .about .about-container {
+      flex-direction: column; } }
+  .about .about-container .about-text {
+    flex: 1;
+    text-align: center; }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      .about .about-container .about-text div {
+        position: relative;
+        left: 12%; } }
+    .about .about-container .about-text h1 {
+      font-family: 'attention';
+      font-size: 20em;
+      color: #000;
+      margin-bottom: -5%;
+      margin-top: 3%; }
+      @media only screen and (min-width: 1441px) and (max-width: 1799px) {
+        .about .about-container .about-text h1 {
+          font-size: 17em; } }
+      @media only screen and (min-width: 1280px) and (max-width: 1440px) {
+        .about .about-container .about-text h1 {
+          font-size: 15em; } }
+      @media only screen and (min-width: 1025px) and (max-width: 1439px) {
+        .about .about-container .about-text h1 {
+          font-size: 12em; } }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .about .about-container .about-text h1 {
+          font-size: 8em; } }
+      @media only screen and (max-width: 767px) {
+        .about .about-container .about-text h1 {
+          font-size: 10em; } }
+    .about .about-container .about-text p {
+      width: 70%;
+      margin: 0 auto;
+      color: #000;
+      font-size: 1.25em;
+      text-align: justify; }
+      @media only screen and (min-width: 1025px) and (max-width: 1439px) {
+        .about .about-container .about-text p {
+          font-size: 1em; } }
+      @media only screen and (max-width: 1024px) {
+        .about .about-container .about-text p {
+          font-size: 12px;
+          margin-bottom: 20px; } }
+  .about .about-container .about-image {
+    flex: 1;
+    overflow: hidden; }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      .about .about-container .about-image {
+        flex: 1.5; } }
+    .about .about-container .about-image img {
+      width: 100%;
+      margin-bottom: -10%; }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .about .about-container .about-image img {
+          width: 115%; } }
+      @media only screen and (max-width: 767px) {
+        .about .about-container .about-image img {
+          width: 135%; } }

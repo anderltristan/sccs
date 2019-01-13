@@ -1,0 +1,76 @@
+@font-face
+    font-family: 'attention'
+    src: url(../images/The_Attention.ttf)
+
+$color1: #FACFCC;
+    
+.about
+    .about-container
+        display: flex
+        background: $color1
+
+        @media only screen and (max-width: 767px)
+            flex-direction: column
+
+        .about-text
+            flex: 1
+            text-align: center
+
+            div
+                @media only screen and (min-width: 768px) and (max-width: 1024px)
+                    position: relative
+                    left: 12%
+
+            h1
+                font-family: 'attention'
+                font-size: 20em
+                color: #000
+                margin-bottom: -5%
+                margin-top: 3%
+
+                @media only screen and (min-width: 1441px) and (max-width: 1799px)
+                    font-size: 17em
+
+                @media only screen and (min-width: 1280px) and (max-width: 1440px)
+                    font-size: 15em
+
+                @media only screen and (min-width: 1025px) and (max-width: 1439px)
+                    font-size: 12em
+
+                @media only screen and (min-width: 768px) and (max-width: 1024px)
+                    font-size: 8em
+                @media only screen and (max-width: 767px)
+                    font-size: 10em
+            
+            p
+                width: 70%
+                margin: 0 auto
+                color: #000
+                font-size: 1.25em
+                text-align: justify
+
+                @media only screen and (min-width: 1025px) and (max-width: 1439px)
+                    font-size: 1em
+
+                @media only screen and (max-width: 1024px)
+                    font-size: 12px
+                    margin-bottom: 20px
+        
+        .about-image
+            flex: 1
+            overflow: hidden
+
+            @media only screen and (min-width: 768px) and (max-width: 1024px)
+                flex: 1.5
+
+            img
+                width: 100%
+                margin-bottom: -10%
+                
+                @media only screen and (min-width: 768px) and (max-width: 1024px)
+                    width: 115%
+
+                @media only screen and (max-width: 767px)
+                    width: 135%
+
+      
